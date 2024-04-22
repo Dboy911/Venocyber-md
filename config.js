@@ -27,7 +27,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "255698101622";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2349125396698";
 
 
 
@@ -35,8 +35,8 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 //========================= [ BOT SETTINGS ] =========================\\
 global.style = process.env.STYLE   || '3',  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "true"; // Make it "true" if bot not responed
-global.gdbye = process.env.GOODBYE || "false"; 
-global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
+global.gdbye = process.env.GOODBYE || "true"; 
+global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 5,
 global.disablepm = process.env.DISABLE_PM || "true",
@@ -61,7 +61,7 @@ global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://myqr-43bb863fa5eb.herokuapp.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ;
+global.SESSION_ID = process.env.SESSION_ID ||  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSU5tZ0dSb1JPSFBRTEQ0clFhcUZPWGRHUUc3dkZCdkt5QURTRXlwbDIxZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib0hxOHFIVENpMXJhVkJqRldNZmFXNFZJcHlJRldrY3NBWHpQcVlsR0x4OD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhR09TeEJlbUtFck1VSHo5N0p6elVreXljbHZ4alhERkFneXJNaVltczFRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJHNDJ6K21NYzYyNlJ4M1JlRnV6ZTBvSWFEOFdPV3JDeVNSUFVUck5BOUc4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlNOa0VHRjhpMzJsMEJxV3hmS0RZR2krc2JQYU9RelNOUGt0Mkd3d0xrRjA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1OMzJVeWFENXo4YUFyQnR0R2g5bVAvc3NkbzFkT21kaEM2dWJtM2RNVTA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNkpzMHl2bDJXYTkydzE0ZmlPRjRORmZkb3JxdjhONXQzaU9BZDdXOHJtQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNUdaNFlQV2laZ1VvWExad3hKbTJWSWphZzh5ZlpWZDU0dis5dkpkSHhVUT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjU5QzJTTDdraHRTYUllQUVLWWJQVjNqWmFwd2JtVHlYWGRGSFpwdUdrRjRXWkVjU2dRcnliRDEranY1a25qRU41TTdEYlR2TlljSUh1TTlnU2MzdmlnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MzksImFkdlNlY3JldEtleSI6IklCcURVQUZWYkV1Tjg4M3lpYTljNmRYR3dvVHFJZFljdWVSa0FtelAyU0E9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6InBxaEVjcm9XUlhXQTlweG9FMlF0MGciLCJwaG9uZUlkIjoiMjhiNWJhYTEtYmM4MC00NGQyLWJjOWItMmIwYmQ4YTk1OWVlIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Iit5UGYrUlR6VXZCZlVPNDExSEtXVVEwaE9iST0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJuMmtkODFHaTRmcXZtM2l2cnpRbDBlV1lTZVU9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiTFgzS1c5Q1giLCJtZSI6eyJpZCI6IjIzNDkxMjUzOTY2OTg6NUBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJVbmRpc3B1dGVkIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNQVE4yWFFRdHBxYXNRWVlCU0FBS0FBPSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJzNFYwb1BtYjBUQ0M5d2V4Z3pZbEY5SDdKU0M0LytWTWFVYklNV1lHQTM4PSIsImFjY291bnRTaWduYXR1cmUiOiI5K3AybjZQSjAyM1lCUUpLYUV4SGM3ZHB5QkFNYTQwa1lQSUs2ZVpxa2ZHb0wyK0Y1MDQzSzc0dUFMQURLbHJUNnNEQytkZW9OWFdvOUNKeDF4ejdBdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiaTFMUy9BUGpsMHNCWUc4aHlVRmxDZHlGRGRKZXlUbGx6TzJTQXIrclVIVE8vanVzcVdXaXB6MkN0TlVtYldvUUR6YjRzOU9MTk9LTTFaQjZsSmZXalE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzQ5MTI1Mzk2Njk4OjVAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCYk9GZEtENW05RXdndmNIc1lNMkpSZlIreVVndVAvbFRHbEd5REZtQmdOLyJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcxMzgwMjU2NH0=" ;
 
 
 module.exports = {
@@ -76,7 +76,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "𝛁𝚵𝚴𝚯𝐂𝐘𝚩𝚵𝚪-MD",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "𝛁𝚵𝚴𝚯𝐂𝐘𝚩𝚵𝚪 𝚳𝐃",
-  ownername:process.env.OWNER_NAME|| "It's Venocyber",
+  ownername:process.env.OWNER_NAME|| "Divine",
 
 
   errorChat : process.env.ERROR_CHAT || "",
